@@ -3,6 +3,7 @@
 
 #include <string>
 #include "actor.h"
+#include "productor.h"
 
 struct secundario {
        actor *info;
@@ -18,6 +19,8 @@ struct pelicula {
        
        pelicula *sig;
        actor *principal;
-       secundario *sec;             
+       secundario *sec;
+       productor *prod
+                    
 };
 #endif
