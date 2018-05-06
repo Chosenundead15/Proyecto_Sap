@@ -9,6 +9,7 @@ struct actor {
        std::string nombre;
        std::string nacionalidad;
        genero *gen;
+       char sexo;
        oscar *oscares;
 }
 #endif
